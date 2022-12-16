@@ -1,2 +1,3 @@
-s=input()
-print(s[::-1])
+s=input().split()
+s.reverse()
+print(*s)
